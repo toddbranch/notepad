@@ -1,0 +1,38 @@
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.noteListColumn {
+	padding: 10px;
+	float: left;
+	width: 30%;
+	background-color: lightgray;
+	height: 400px;
+	box-sizing: border-box;
+}
+
+.editColumn {
+	float: right;
+	width: 70%;
+	height: 400px;
+}
+
+.commands {
+	padding: 10px;
+	background-color: red;
+	height: 20%;
+	box-sizing: border-box;
+}
+
+.editArea {
+	padding: 10px;
+	background-color: gray;
+	height: 80%;
+	box-sizing: border-box;
+}
+
+.title:hover {
+	background-color: slategray;
+}
